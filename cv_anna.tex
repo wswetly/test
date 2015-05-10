@@ -1,0 +1,137 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Anna} % Your first name
+\familyname{Fritz} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Westendstrasse 153}{80339 M\"unchen}
+\mobile{+49-176-968 252 77}
+\phone{+49-89-24 40 67 43}
+\email{anna.fritz@tum.de}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+\photo[120pt][0pt]{Anna_Fritz.png} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%--------------------------------------------------------------------------------------
+%	ARBEITSERFAHRUNG
+%----------------------------------------------------------------------------------------
+
+\section{Pers\"onliche Information}
+\cvitem{Geburtsdatum}{25.02.1986}
+\cvitem{Geburtsort}{Mussenhausen}
+\cvitem{Staats- \\angeh\"origkeit}{Deutsch}
+%\cvitem{Familienstand}{verlobt}
+
+\section{Arbeitserfahrung}
+
+%\subsection{Vocational}
+%\cventry{09/2014--Heute}{Free Lance Consulting}{\textsc{MGM Technology Partners GmbH, M\"unchen}}{}{}{Prototyping im Bereich statistische Datenanalyse und Data Mining im Data Warehousing und Warenflussmanagement f\"ur die Kunden LIDL und REWE,  Erstellung von Spezifikationen f\"ur Module zur automatisierten Kennzahlenberechnung und -ausgabe}
+
+\cventry{05/2015--Heute}{Qualit\"atsmanagerin}{Berner \& Mattner Systemtechnik GmbH}{}{}{}
+
+
+\cventry{05/2011--04/2015}{Werkstudentin Qualit\"atsmanagement}{Berner \& Mattner Systemtechnik GmbH}{}{}{}
+
+\section{Universit\"at}
+\subsection{Deutschland}
+
+
+\cventry{12/2014--04/2015}{Silver Atena Electronic Systems Engineering GmbH}{}{Masterarbeit: "Einf\"uhrung eines Umweltmanagementsystems nach ISO 14001"}{}{} 
+
+\cventry{10/2011--06/2015}{Umweltplanung und Ingenieur\"oklogie}{Master of Science}{Technische Universit\"at M\"unchen}{}{}  
+\cventry{10/2007--09/2011}{Landschaftsarchitektur}{Bachelor of Science}{Technische Universit\"at M\"unchen}{}{}  
+
+
+
+\subsection{Ausland}
+
+\cventry{01/2010--08/2010}{Architecture et Paysage}{Ecole Nationale Sup\'{e}rieure d'Architecture et de Paysage de Bordeaux}{Bordeaux}{Frankreich}{}
+
+
+\section{Schule}
+\cventry{1997--2007}{Gymnasium}{Maristenkolleg Mindelheim}{}{}{}
+\cventry{1996--1997}{Hauptschule}{Grund- und Volksschule Markt Rettenbach}{}{}{}
+\cventry{1992--1997}{Grundschule}{Grund- und Volksschule Markt Rettenbach}{}{}{}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{IT-Kenntnisse}
+
+\cventry{Tools}{Python, R, SPSS}{}{Grundkenntnisse}{}{}
+\cventry{Markup}{HTML}{}{}{}{}
+\cventry{Datenbanken}{SQL, Oracle, MySQL}{}{Grundkenntnisse}{}{}
+\cventry{Sprachen}{Java}{}{Grundkenntnisse}{}{}
+\cventry{Geo- informations- systeme}{ArcGIS, FME}{}{gute Kenntnisse}{}{}
+\cventry{MS Office 2010}{Outlook, Word, Excel, PowerPoint}{}{sehr gute Kenntnisse}{}{}
+\cventry{Content Management System}{Contenido}{}{gute Kenntnisse}{}{}
+\cventry{Desktop- publishing}{InDesign}{}{gute Kenntnisse}{}{}
+\cventry{Bildbe- arbeitung}{Photoshop}{}{gute Kenntnisse}{}{}
+\cventry{Configuration Management}{Subversion, SharePoint}{}{Grundkenntnisse}{}{}
+
+\section{Sprachen}
+
+\cvitemwithcomment{Deutsch}{Muttersprache}{}
+\cvitemwithcomment{Englisch}{Verhandlungssicher}{}
+\cvitemwithcomment{Franz\"osisch}{Gute Kenntnisse}{}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Au{\ss}erberufliche Interessen}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Zeichnen}{}
+\cvlistdoubleitem{Rennradfahren}{}
+\cvlistdoubleitem{Skifahren}{}
+
+\end{document}
